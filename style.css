@@ -1,0 +1,181 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+.headerContainer{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    padding: 10px 100px; 
+}  
+
+.header{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+   
+}
+
+ul{
+    font-size: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.SectionOne{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color:white;
+    text-align: left;
+    padding: 50px 100px;
+}
+
+.websitePrompt{
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.miniPrompt{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background: #3882F6;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image{
+   flex-shrink: 0;
+   justify-content: center;
+   padding: 0px 15px;
+}
+
+.websitePrompt, .miniPrompt, .butt{
+    text-align: left;
+}
+
+
+.SectionTwo{    
+    background-color: white;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    padding: 100px 100px;
+}
+
+.headerTwo, .container{
+    justify-content: center;
+    text-align: center;
+}
+
+.headerTwo{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.container{
+    display:flex; 
+    flex-wrap: wrap;
+}
+
+.cards{
+    display:flex;
+    flex-direction: column;  
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.imageTwo{
+    border-radius: 10%;
+}
+
+.SectionThree{
+    background-color: #E5E7EB; 
+    padding: 100px 300px;
+
+}
+
+.quote{
+    justify-content: center; 
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+.SectionFour{
+    background-color: white;
+}
+
+.containerFour{
+    background-color: #3882F6;
+    border-radius: 10%;
+    display:flex;
+    flex-direction: row; 
+    margin: 100px 200px;
+    padding: 50px;
+
+}
+
+.leftSide{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.action{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.actionSubtext{
+    font-size: 15px;
+}
+
+.action, .actionSubtext{
+    color:white;
+}
+
+
+button.signUp{
+    color:white;
+    border-style: solid;
+    justify-content: center;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
